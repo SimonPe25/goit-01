@@ -90,16 +90,8 @@ select {
 }
 
 .header__logo {
-    display: block;
     cursor: pointer;
-    height: 100%;
-    width: 50px;
-}
-
-.header__nav {
-    background-color: aqua;
-    height: 70%;
-    width: 80px;
+    padding-bottom: 30px;
 }
 
 .logo__text {
@@ -131,13 +123,12 @@ select {
     color: #212121;
     margin-left: 50px;
 }
-
 .list__link:hover {
     color: #2196F3;
 }
 
 .mail {
-    margin-left: 193px;
+    margin-left: 290px;
 }
 
 .link-phone {
@@ -191,11 +182,11 @@ select {
 }
 
 /* Section 3 */
-.doing {
+.description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 95px 215px 92px 216px;
+    padding: 95px 215px 0px 216px;
 }
 
 .wrapper-text {
@@ -232,9 +223,17 @@ select {
     color: #757575;
 }
 
+/* Section 4*/
+
+.doing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 215px 92px 215px;
+}
+
 .question {
-    margin-top: 96px;
-    margin-bottom: 50px;
+    margin: 96px 0px 50px 2px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -298,9 +297,10 @@ select {
 .footer {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding: 61px 0 10px 216px;
     background-color: #2F303A;
-    height: 187px;
+    height: 252px;
     width: 100%;
 }
 
@@ -315,16 +315,22 @@ select {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    font-style: normal
+    font-style: normal;   
 }
 
-address { all: initial }
+address {
+    all: initial
+}
 
 .header__logo {
     height: 28%;
 }
 
 .cnt {
-    margin-top: 5px;
+    display: block;
+    margin-top: 6px;
     color: rgba(255, 255, 255, 0.6);
+}
+.cnt:hover {
+    color: #2196F3;
 }
